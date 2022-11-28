@@ -1,2 +1,2 @@
-# capstone-prj
-Capstone Project 2022
+# portfolio-prj
+Portfolio Project 2022
