@@ -48,7 +48,7 @@ A subset of the hyperparameters accepted by SGD Regressor and that I chose to op
 ## RESULTS
 **A summary of your results and what you can learn from your model**
 
-I got a 0.74 score for the SGD Regressor model without hype rparameters optimization.
+I got a 0.74 score for the SGD Regressor model without hyperparameters optimization.
 
 Applying Grid Search and Bayesian optimization I obtained 
 
@@ -61,4 +61,4 @@ Applying Grid Search and Bayesian optimization I obtained
 
 ## (OPTIONAL: CONTACT DETAILS)
 
-This is a sample projetc for the AI/ML Certification Course by London Implerial College, no need to include contact details.
+This is a sample projetc for the AI/ML Certification Course by London Imperial College, no need to include contact details.
