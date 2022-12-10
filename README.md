@@ -7,13 +7,13 @@ Life expectation is an information that can be useful in several business domain
 
 Two exampples, among the others
 
- - Insurance Business: price of life insurance policeis vary in function of the life expectation of the specific countries and the healthy habits of the citizens
+ - Insurance Business: price of life insurance policies vary in function of the life expectation of the specific countries and the healthy habits of the citizens
  - Medical domain: unserstandig the correlation between Life Expectancy and  eating habits, lifestyle, exercise, smoking, drinking alcohol etc.
 
 This projects aims to determine life expectation using as predictors country, morthality, alcohol consumption, infant deaths, diphtheria, population, HIV, hepatite, ...
 
 ## DATA
-A summary of the data you’re using, remembering to include where you got it and any relevant citations. 
+**A summary of the data you’re using, remembering to include where you got it and any relevant citations.**
 
 The dataset has been downloaded from kaggle at the [Life Expectancy (WHO)](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who) page.
 
@@ -21,7 +21,7 @@ This dataset contains information compiled by the World Health Organization and 
 
 
 ## MODEL 
-A summary of the model you’re using and why you chose it. 
+**A summary of the model you’re using and why you chose it.**
 
 The model I chose is a linear model fitted by minimizing a loss function loss with SGD (Stochastic Gradient Descent).
 
@@ -34,7 +34,7 @@ I chose this model for the linear relation between the features and because offe
 A [model card](model_card.md) is available for more info about the model.
 
 ## HYPERPARAMETER OPTIMSATION
-Description of which hyperparameters you have and how you chose to optimise them. 
+**Description of which hyperparameters you have and how you chose to optimise them.**
 
 A subset of the hyperparameters accepted by SGD Regressor and that I chose to optimize are
 
@@ -46,7 +46,7 @@ A subset of the hyperparameters accepted by SGD Regressor and that I chose to op
 - early_stopping: Whether to use early stopping to terminate training when validation score is not improving
 
 ## RESULTS
-A summary of your results and what you can learn from your model 
+**A summary of your results and what you can learn from your model**
 
 I got a 0.74 score for the SGD Regressor model without hype rparameters optimization.
 

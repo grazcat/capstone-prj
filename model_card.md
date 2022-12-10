@@ -37,7 +37,7 @@ The model is well suited for the linear relation between the features and offers
 
 ## Performance
 
-Give a summary graph or metrics of how the model performs. Remember to include how you are measuring the performance and what data you analysed it on. 
+**Give a summary graph or metrics of how the model performs. Remember to include how you are measuring the performance and what data you analysed it on.**
 
 The model has 0.74 score for the SGD Regressor model without hype rparameters optimization.
 
@@ -61,12 +61,12 @@ They mostly got the same values for the hyper parameters, except for
 
 ## Limitations
 
-Outline the limitations of your model.
+**Outline the limitations of your model.**
 
 It is a regression model, so we need feed the model with all tha parameters it needs. They are actually 15, another regression model can overccome this limitation
 
 ## Trade-offs
 
-Outline any trade-offs of your model, such as any circumstances where the model exhibits performance issues. 
+**Outline any trade-offs of your model, such as any circumstances where the model exhibits performance issues.**
 
 The model is linear, so no real performance issues here and no need for an impressive hardware to run the model. Unfortunately, the precision is limited to 0.78
